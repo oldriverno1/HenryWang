@@ -10,11 +10,12 @@ export class IntroComponent implements OnInit {
 
   ngOnInit(): void {
     const options = {
-      strings: ['Innovation.', 'Discovery.'],
-      typeSpeed: 100,
-      backSpeed: 100,
+      strings: ['FrameWork I use for front-end: Angular', 'FrameWork I use for back-end: Spring boot'],
+      typeSpeed: 50,
+      backSpeed: 50,
       showCursor: true,
       cursorChar: '|',
+      smartBackspace: true, // Default value
       loop: true,
     };
 
